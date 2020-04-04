@@ -10,7 +10,7 @@
 
 
 " Colorscheme
-colorscheme wal
+colorscheme gruvbox
 
 augroup specify_filetype
     autocmd!

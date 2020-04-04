@@ -100,4 +100,14 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 " vim-hexcolor
 Plug 'etdev/vim-hexcolor'
 
+" vim-swap
+Plug 'machakann/vim-swap'
+
+"fzf
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" Gruvbox
+Plug 'morhetz/gruvbox'
+
 call plug#end()

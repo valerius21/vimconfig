@@ -13,6 +13,11 @@
 let g:polyglot_disabled = ['latex']
 
 
+"""""""""""""""""""
+" GRUVBOX Settings"
+"""""""""""""""""""
+let g:gruvbox_contrast = "hard"
+
 """""""""""""""
 " Git Gutter  "
 """""""""""""""
@@ -91,7 +96,7 @@ let g:NERDTreeIndicatorMapCustom = {
 "Airline   "
 """"""""""""
 "main settings
-let g:airline_theme='wpgtk'
+let g:airline_theme='gruvbox'
 let g:airline_powerline_fonts = 1
 let g:airline_symbols = {}
 let g:airline_skip_empty_sections = 1
@@ -167,7 +172,7 @@ set completefunc=emoji#complete
 
 """""""""""""""""
 "Indent Guides  "
-"""""""""""""""""
+""""""""""""""""""
 "let g:indentLine_char = '▏'
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
