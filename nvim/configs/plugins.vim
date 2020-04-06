@@ -111,6 +111,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
 
 " Prettier
-Plug 'prettier/vim-prettier', {}
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
 call plug#end()
