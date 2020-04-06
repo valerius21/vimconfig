@@ -111,6 +111,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
 
 " Prettier
-"Plug 'prettier/vim-prettier', {}
+Plug 'prettier/vim-prettier', {}
 
 call plug#end()
